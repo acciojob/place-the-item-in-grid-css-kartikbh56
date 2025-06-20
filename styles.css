@@ -1,2 +1,20 @@
 
-/* Your CSS Code here. */
+/* Your CSS Code here. */.holder {
+  display: grid;
+  width: 200px;
+  height: 200px;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0; /* optional, if no spacing between items is needed */
+}
+
+/* Optional styling for visibility */
+.item {
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  border: 1px solid #000;
+}
